@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(25 25 25);
+}
+
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(25 25 25);
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.header-left {
+    color: whitesmoke;
+    font-family: 'Eras ITC';
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.header-right {
+    color: whitesmoke;
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+    background-color: rgb(25 25 25);
+    padding-right: 20px;
+
+}
+
+a {
+    margin-left: 30px;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+
+
+
+.main-1 {
+    text-align: center;
+    height: 720px;
+    background-image: url('https://thebuzzpaper.com/wp-content/uploads/2020/03/what-time-will-kingdom-season-2-be-on-netflix-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.main-1 h1 {
+    font-family: 'Copperplate Gothic Light';
+    font-size: 130px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.main-1 h2 {
+    font-family: 'Copperplate Gothic Light';
+    font-size: 20px;
+    letter-spacing: 3pt;
+    padding: 0;
+    margin-top: 200px;
+}
+
+.main-1 h3 {
+    font-family: 'Copperplate Gothic Light';
+    font-size: 20px;
+    letter-spacing: 3pt;
+    padding: 0;
+    margin-bottom: ;
+}
+
+
+
+
+.main-2 {
+    background-color: rgb(67 13 13);
+    color: wheat;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 400px;
+    padding-left: 400px;
+    flex-shrink: 0;
+}
+
+.main-2 h1 {
+    font-family: '나눔스퀘어 ExtraBold';
+    font-size: 80px;
+}
+
+.main-2 h2 {
+    font-family: '나눔스퀘어 Light';
+}
+
+.main-2 p {
+    font-family: '나눔스퀘어 Light';
+}
+
+
+
+.main-3 {
+    background-color: whitesmoke;
+    font-family: '나눔스퀘어 Light';
+    color: rgb(25 25 25);
+    padding: 120px 370px;
+}
+
+
+.main-4 {
+    background-color: rgb(25 25 25);
+    font-family: '나눔스퀘어 Light';
+    color: whitesmoke;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 400px;
+    padding-left: 400px;
+    text-align: center;
+    letter-spacing: 3pt;
+}
+
+
+.footer {
+    background-color: rgb(25 25 25);
+    color: rgb(100 100 100);
+    text-align: center;
+    font-family: '나눔스퀘어 Light';
+}
